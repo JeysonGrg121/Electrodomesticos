@@ -15,8 +15,8 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Ejecutable menu1 = new Ejecutable();
-        menu1.Menu();
+        Ejecutable menu1 = new Ejecutable();// se instacia la clase y el objeto
+        menu1.Menu();// se hace el llamado del metodo menu de la clase ejecutable
         
     }
     
