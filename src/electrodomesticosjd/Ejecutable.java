@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Carlos
+ * @author Jeyson Duarte
  */
 //clase ejecutable
 public class Ejecutable {
@@ -59,9 +59,10 @@ public class Ejecutable {
                 lista[i]=  eletro;
             }if(desicion==3){
                 ResultadosMenu();
+                System.out.println("Gracias....");
                 break;
             }if(desicion>3){
-                System.out.println("No esta dentros de las opciones...");
+                System.out.println("No esta dentro de las opciones...");
             }           
          
          
@@ -110,7 +111,7 @@ public class Ejecutable {
         System.out.println("Ingrese valor del Peso: ");
         peso = entrada.nextDouble();  // lee el peso
         eletro = new Lavadora(precioBase, peso);
-       ((Lavadora) eletro).ImprimirDefectolavadora();// imrpime los datos       
+       ((Lavadora) eletro).ImprimirPrecioPesolavadora();// imrpime los datos       
     }
     // metodo con todos los parametros a ingresar por el usuario de la lavadora
     public void lavadoratodo(){
@@ -130,7 +131,7 @@ public class Ejecutable {
         System.out.println("Ingrese Valor carga: ");
         carga = entrada.nextInt();// lee la carga
         eletro = new Lavadora(precioBase,peso,consumoEnergetico,color,carga);
-        ((Lavadora) eletro).ImprimirDefectolavadora();// imrpime los datos   
+        ((Lavadora) eletro).ImprmirTodolavadora();// imrpime los datos   
        
     }
     

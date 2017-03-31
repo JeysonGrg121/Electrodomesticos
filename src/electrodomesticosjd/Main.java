@@ -7,7 +7,7 @@ package electrodomesticosjd;
 
 /**
  *
- * @author Carlos
+ * @author Jeyson Duarte
  */
 public class Main {
      /**

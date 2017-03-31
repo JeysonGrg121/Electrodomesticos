@@ -7,7 +7,7 @@ package electrodomesticosjd;
 
 /**
  *
- * @author Carlos
+ * @author Jeyson Duarte
  */
 //calse televisor Hija
 public class Televisor extends Electrodomestico {
