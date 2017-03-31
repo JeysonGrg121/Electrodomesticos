@@ -97,9 +97,7 @@ public class Electrodomestico {
     }
     // contructo por defecto
     public Electrodomestico(){
-        this(PrecioBaseDefecto, PesoDefecto, ConsumoEnergeticoDefecto, ColorDefecto);
-        
-                
+        this(PrecioBaseDefecto, PesoDefecto, ConsumoEnergeticoDefecto, ColorDefecto);                        
     }
     //contructor por defecto con 2 paramentros ingresados por el usuario
      public Electrodomestico(double precioBase, double peso){
@@ -114,22 +112,5 @@ public class Electrodomestico {
         comprobarColor(color);
         
     }
-      // metodo para conocer los valores por defecto
-    public void ImprimirDefecto(){
-        System.out.println("Precio: "+PrecioBaseDefecto +"\nPeso: "
-                + PesoDefecto+"\nConsumo: "+ ConsumoEnergeticoDefecto+"\nColor "
-                +  ColorDefecto);
-    }
-    // conocer los valores por defecto mas los ingresados por el usuario
-    public void ImprimirPrecioPeso(){
-        System.out.println("Precio: "+ precioBase+"\nPeso: "+peso+"\nConsumo: "
-                + ConsumoEnergeticoDefecto+"\nColor "+  ColorDefecto);
-    }
-    // metodo para conocer los valores ingresados por el usuario
-    public void ImprmirTodo(){
-        System.out.println("Precio: "+ precioBase+"\nPeso: "+peso+"\nConsumo: "
-                +consumoEnergetico+"\nColor:"+color);
-    }
-   
     
 }
